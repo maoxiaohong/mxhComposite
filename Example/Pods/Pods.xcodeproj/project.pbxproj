@@ -7,27 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DE97E86A2DBF456DA470F888CBAEC92 /* mxhGadgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633521B4CB4A8DE5E910B28B0C6820A /* mxhGadgets.framework */; };
-		11FBE360C125F32E0BA20CA2689305BD /* mxhGadgets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5873B95CE701066F783BC50AEEEB6A9 /* mxhGadgets-dummy.m */; };
-		1376C5597FFC11FEDB1D7013D8330590 /* loading_64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B67611726672E582F879692FA07B6E4 /* loading_64@2x.png */; };
+		000374F34E4F347EDA9A0B3BA175C678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1A76642DB047238A9A1EC47DA0D6C540 /* Pods-mxhComposite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A69E73D8DA667671365B0ED558F0FF2 /* Pods-mxhComposite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D8FB0A4622B4D63EF97B34DCBD4B69E /* mxhGadgets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8865800F9047AC56D00324F9271F10D /* mxhGadgets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		464129147235D679A2D8F7F2D91BBAC1 /* AdaptiveLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C9222F50919F9C998EC337FDA7FA /* AdaptiveLayoutHelper.m */; };
-		704785FC02DF2FADD1D755C036AC2EBC /* LayoutButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A9B7941FD4B7B397F2C4FC220DEBEC /* LayoutButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2055F21F94DCC32715ECA250BF025E74 /* mxhComposite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93234BC0491AE25FDF111B255435FE /* mxhComposite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA34289C1DCB095AA72390BABDAC3D2 /* LayoutButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094C262EC819877E2F1AAB356AE54A68 /* LayoutButtonController.m */; };
+		47D3BA459E828D3230A11AFBAE64B8E5 /* AdaptiveLayoutHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456626DABD7D4445744E1E23FA5075E6 /* AdaptiveLayoutHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494FBA0913D7920EB47CEF705322B16B /* UIButton+CommitButtonSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 252A41CE9522B119183A580A0718C4CE /* UIButton+CommitButtonSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A9795A0BB22B2D2ED990D5C82CB00A4 /* AdaptiveLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C9222F50919F9C998EC337FDA7FA /* AdaptiveLayoutHelper.m */; };
 		77AF670F22E62D6D1374F17F2F97CEC0 /* Pods-mxhComposite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6583E33584775D249ED37FBB45A2DD /* Pods-mxhComposite-dummy.m */; };
-		79F132958878553306A29C816159A385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */; };
-		8065A4CF1A7BAC969BDAE85820C71A2E /* LayoutButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094C262EC819877E2F1AAB356AE54A68 /* LayoutButtonController.m */; };
-		8234047C81FBE314D740C6DB60FEAB85 /* StyleButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078CFB55BDBB78E2F7BB68D3A99F451 /* StyleButtonController.xib */; };
-		84003450AC69CA45FC872D598C3FD47C /* StyleButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F44AB4FAADDFD91407E5F027348AAA /* StyleButtonController.m */; };
-		979F8848098F465DE4978F9961D9D258 /* StyleButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDAC284676C0AC184C72F3C1E68A063 /* StyleButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		982E955EA5685B0EFACF25794882F423 /* mxhComposite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4700F26D947AD325C077917C78DDED /* mxhComposite-dummy.m */; };
-		A0C92C573D46724F3AB48DCF5FA9D45D /* mxhComposite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93234BC0491AE25FDF111B255435FE /* mxhComposite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB9422BACAB7DD3FBDE55BDDBF03ACC1 /* LayoutButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A64B73D91CACE3B7D98CEC8B5711345 /* LayoutButtonController.xib */; };
-		AFF06772E1397F5488DB434FB59ADDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */; };
-		B764164A397C6463A31853D58270F684 /* UIButton+CommitButtonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C934F58C89E4AC0252989D6FE2B2114A /* UIButton+CommitButtonSet.m */; };
-		BBC2DE1E009CDAE6DB84D4F957905006 /* AdaptiveLayoutHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456626DABD7D4445744E1E23FA5075E6 /* AdaptiveLayoutHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF5039FE06C57098F4FB72C50A8BFCD1 /* UIButton+CommitButtonSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 252A41CE9522B119183A580A0718C4CE /* UIButton+CommitButtonSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF589C4B5600729591F820855FA0305B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */; };
+		8988AD325215AB3151BD9CBACEA8ACB0 /* StyleButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDAC284676C0AC184C72F3C1E68A063 /* StyleButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A016C77CBD9A3B43BBA9D8FECA4B2A84 /* mxhGadgets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8865800F9047AC56D00324F9271F10D /* mxhGadgets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6626A0235975FADE07B226B7DAF38B9 /* loading_64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B67611726672E582F879692FA07B6E4 /* loading_64@2x.png */; };
+		AFF06772E1397F5488DB434FB59ADDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0D73C3F1C9B3D45A53A0A2D55377973 /* mxhComposite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4700F26D947AD325C077917C78DDED /* mxhComposite-dummy.m */; };
+		BFF604157D07B40A74250A4D2F40C1C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C122B1544AE06AA58CA780AC2AAECDC1 /* UIButton+CommitButtonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C934F58C89E4AC0252989D6FE2B2114A /* UIButton+CommitButtonSet.m */; };
+		C288108B516836979D752FD316F50006 /* LayoutButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A9B7941FD4B7B397F2C4FC220DEBEC /* LayoutButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DE7EBB4FE790BD1FC6F5D9979F8B2E /* mxhGadgets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5873B95CE701066F783BC50AEEEB6A9 /* mxhGadgets-dummy.m */; };
+		F2406B1C383208E10D312616530307AE /* StyleButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F44AB4FAADDFD91407E5F027348AAA /* StyleButtonController.m */; };
+		F296CEEFA6E9DD2C8BAEC5F8D1F6C3C5 /* LayoutButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A64B73D91CACE3B7D98CEC8B5711345 /* LayoutButtonController.xib */; };
+		F2EF7618081583B48D1EC1D5F9342EE1 /* StyleButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078CFB55BDBB78E2F7BB68D3A99F451 /* StyleButtonController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,21 +34,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2E3E1C5AC9FF8328BEC40985632FD20;
-			remoteInfo = mxhGadgets;
-		};
-		E2ACB536C47FE86DF9C13649E28655BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2E3E1C5AC9FF8328BEC40985632FD20;
+			remoteGlobalIDString = 5B39F5B64D92BF932803FE30A65264B0;
 			remoteInfo = mxhGadgets;
 		};
 		F490011E5162731CB086D444DAA49BEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B451D84A5E67A8CA6BD4D057A7391EC3;
+			remoteGlobalIDString = F482286B117D0F3F62BBF75141E15307;
 			remoteInfo = mxhComposite;
 		};
 /* End PBXContainerItemProxy section */
@@ -73,11 +65,11 @@
 		583110189FE78563D40197199D0CA9E9 /* mxhGadgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mxhGadgets.framework; path = mxhComposite/ThirdParty/mxhGadgets.framework; sourceTree = "<group>"; };
 		5A64B73D91CACE3B7D98CEC8B5711345 /* LayoutButtonController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LayoutButtonController.xib; path = mxhComposite/LayoutButton/LayoutButtonController.xib; sourceTree = "<group>"; };
 		6143D375FEE26A8A3FA78D9B8F7F4FA3 /* mxhGadgets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mxhGadgets.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67A9B7941FD4B7B397F2C4FC220DEBEC /* LayoutButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutButtonController.h; path = mxhComposite/LayoutButton/LayoutButtonController.h; sourceTree = "<group>"; };
 		69BAE2F65682F19775B40353D6BC91D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B89C0609E213C802A01C81EE919568F /* mxhGadgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mxhGadgets.framework; path = mxhGadgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFE3A84FD406F980FFF054537964A14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E7DF9C94FBB6684B7B56E550E2F88B /* Pods-mxhComposite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mxhComposite-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B2DC87A7238FB41DEF3426BEA79D2B2 /* Pods-mxhComposite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mxhComposite-acknowledgements.plist"; sourceTree = "<group>"; };
 		7DDAC284676C0AC184C72F3C1E68A063 /* StyleButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StyleButtonController.h; path = mxhComposite/StyleButton/StyleButtonController.h; sourceTree = "<group>"; };
@@ -85,7 +77,6 @@
 		8A5432E99773ADE4097CB994805C562F /* mxhComposite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mxhComposite.framework; path = mxhComposite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mxhComposite.xcconfig; sourceTree = "<group>"; };
-		A633521B4CB4A8DE5E910B28B0C6820A /* mxhGadgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mxhGadgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5873B95CE701066F783BC50AEEEB6A9 /* mxhGadgets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mxhGadgets-dummy.m"; sourceTree = "<group>"; };
 		C934F58C89E4AC0252989D6FE2B2114A /* UIButton+CommitButtonSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CommitButtonSet.m"; path = "mxhGadgets/UIButton+CommitButtonSet.m"; sourceTree = "<group>"; };
 		CCC6B3FFE2B1F38522281EC33930A53E /* Pods-mxhComposite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mxhComposite-frameworks.sh"; sourceTree = "<group>"; };
@@ -98,20 +89,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B4B656C583563D3314A724412D4C9AD /* Frameworks */ = {
+		59AE87BA892A432C1066FCCBCC58B1E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF589C4B5600729591F820855FA0305B /* Foundation.framework in Frameworks */,
+				BFF604157D07B40A74250A4D2F40C1C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C205BA5ED72AD2858179C0746C1CC05 /* Frameworks */ = {
+		908EC902A24630BFF37140ED11CCF41C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F132958878553306A29C816159A385 /* Foundation.framework in Frameworks */,
-				0DE97E86A2DBF456DA470F888CBAEC92 /* mxhGadgets.framework in Frameworks */,
+				000374F34E4F347EDA9A0B3BA175C678 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +183,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9A256E8760383E2966F2871810371EF6 /* Development Pods */,
-				C09BCAD38EC23BE8E1A263D26FE5C873 /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				ECF87C178A33418EABA10823C7CCBB22 /* Pods */,
 				C7AB6C4950E706EC08B96A3494FE5648 /* Products */,
 				C28EF09F963CB7175C38717EFBA2D7F3 /* Targets Support Files */,
@@ -230,11 +220,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C09BCAD38EC23BE8E1A263D26FE5C873 /* Frameworks */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A633521B4CB4A8DE5E910B28B0C6820A /* mxhGadgets.framework */,
-				DB0720C29D2E71C6243059266E424D45 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -265,10 +254,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		DB0720C29D2E71C6243059266E424D45 /* iOS */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -316,16 +305,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3FC5308A5035E07CB05ED7752C6519AB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				704785FC02DF2FADD1D755C036AC2EBC /* LayoutButtonController.h in Headers */,
-				A0C92C573D46724F3AB48DCF5FA9D45D /* mxhComposite-umbrella.h in Headers */,
-				979F8848098F465DE4978F9961D9D258 /* StyleButtonController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		591656A9BF3F7E6D99BE4DD31358C1E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,19 +313,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85E1B3532C2A6A37107C82613B8A35DA /* Headers */ = {
+		D34B47FDAAB88802E081C053E950C503 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC2DE1E009CDAE6DB84D4F957905006 /* AdaptiveLayoutHelper.h in Headers */,
-				1D8FB0A4622B4D63EF97B34DCBD4B69E /* mxhGadgets-umbrella.h in Headers */,
-				DF5039FE06C57098F4FB72C50A8BFCD1 /* UIButton+CommitButtonSet.h in Headers */,
+				47D3BA459E828D3230A11AFBAE64B8E5 /* AdaptiveLayoutHelper.h in Headers */,
+				A016C77CBD9A3B43BBA9D8FECA4B2A84 /* mxhGadgets-umbrella.h in Headers */,
+				494FBA0913D7920EB47CEF705322B16B /* UIButton+CommitButtonSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72FF309899DE352DE8DBDF539532F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C288108B516836979D752FD316F50006 /* LayoutButtonController.h in Headers */,
+				2055F21F94DCC32715ECA250BF025E74 /* mxhComposite-umbrella.h in Headers */,
+				8988AD325215AB3151BD9CBACEA8ACB0 /* StyleButtonController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5B39F5B64D92BF932803FE30A65264B0 /* mxhGadgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A61F9E0A11EDAC6B07E6115785DBB51 /* Build configuration list for PBXNativeTarget "mxhGadgets" */;
+			buildPhases = (
+				5085553DE0CB3A1ACE9580F6514E6A21 /* Sources */,
+				908EC902A24630BFF37140ED11CCF41C /* Frameworks */,
+				D34B47FDAAB88802E081C053E950C503 /* Headers */,
+				09DE3460A9F7BE56A6A7006C17E23E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mxhGadgets;
+			productName = mxhGadgets;
+			productReference = 6B89C0609E213C802A01C81EE919568F /* mxhGadgets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7B9A1ED8CD21C571C4A64D7DF4458952 /* Pods-mxhComposite */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 741F7BCC8A17F0E480C202414F81F9BE /* Build configuration list for PBXNativeTarget "Pods-mxhComposite" */;
@@ -366,41 +373,22 @@
 			productReference = 412459CB870E34741E213AC58270B8FC /* Pods_mxhComposite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B451D84A5E67A8CA6BD4D057A7391EC3 /* mxhComposite */ = {
+		F482286B117D0F3F62BBF75141E15307 /* mxhComposite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5534E5C440A3BA593FE14B596605D134 /* Build configuration list for PBXNativeTarget "mxhComposite" */;
+			buildConfigurationList = 02CDAFD555375EBAFAC27E954760AD69 /* Build configuration list for PBXNativeTarget "mxhComposite" */;
 			buildPhases = (
-				3B8F0AF8638DA66D8C152E14B94FA621 /* Sources */,
-				8C205BA5ED72AD2858179C0746C1CC05 /* Frameworks */,
-				3FC5308A5035E07CB05ED7752C6519AB /* Headers */,
-				F808E7A1D658B967917BBE697E9ED1E4 /* Resources */,
+				2A1ABDBB8DFBD9A91C68CE148959754D /* Sources */,
+				59AE87BA892A432C1066FCCBCC58B1E6 /* Frameworks */,
+				D72FF309899DE352DE8DBDF539532F6D /* Headers */,
+				4D9F5DB400B06C8D8FDCCC42D2D74B73 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB9D8FEB28AB0528DF4B83C2B5467EB0 /* PBXTargetDependency */,
 			);
 			name = mxhComposite;
 			productName = mxhComposite;
 			productReference = 8A5432E99773ADE4097CB994805C562F /* mxhComposite.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D2E3E1C5AC9FF8328BEC40985632FD20 /* mxhGadgets */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3EA7532EECCF3E0C6F91B80BF2430217 /* Build configuration list for PBXNativeTarget "mxhGadgets" */;
-			buildPhases = (
-				43EEF8E9FFEF293495E417A9A4088D42 /* Sources */,
-				0B4B656C583563D3314A724412D4C9AD /* Frameworks */,
-				85E1B3532C2A6A37107C82613B8A35DA /* Headers */,
-				A166CF849D3672427EE8492E3927614B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = mxhGadgets;
-			productName = mxhGadgets;
-			productReference = 6B89C0609E213C802A01C81EE919568F /* mxhGadgets.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -424,51 +412,51 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B451D84A5E67A8CA6BD4D057A7391EC3 /* mxhComposite */,
-				D2E3E1C5AC9FF8328BEC40985632FD20 /* mxhGadgets */,
+				F482286B117D0F3F62BBF75141E15307 /* mxhComposite */,
+				5B39F5B64D92BF932803FE30A65264B0 /* mxhGadgets */,
 				7B9A1ED8CD21C571C4A64D7DF4458952 /* Pods-mxhComposite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A166CF849D3672427EE8492E3927614B /* Resources */ = {
+		09DE3460A9F7BE56A6A7006C17E23E6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1376C5597FFC11FEDB1D7013D8330590 /* loading_64@2x.png in Resources */,
+				A6626A0235975FADE07B226B7DAF38B9 /* loading_64@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F808E7A1D658B967917BBE697E9ED1E4 /* Resources */ = {
+		4D9F5DB400B06C8D8FDCCC42D2D74B73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9422BACAB7DD3FBDE55BDDBF03ACC1 /* LayoutButtonController.xib in Resources */,
-				8234047C81FBE314D740C6DB60FEAB85 /* StyleButtonController.xib in Resources */,
+				F296CEEFA6E9DD2C8BAEC5F8D1F6C3C5 /* LayoutButtonController.xib in Resources */,
+				F2EF7618081583B48D1EC1D5F9342EE1 /* StyleButtonController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B8F0AF8638DA66D8C152E14B94FA621 /* Sources */ = {
+		2A1ABDBB8DFBD9A91C68CE148959754D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8065A4CF1A7BAC969BDAE85820C71A2E /* LayoutButtonController.m in Sources */,
-				982E955EA5685B0EFACF25794882F423 /* mxhComposite-dummy.m in Sources */,
-				84003450AC69CA45FC872D598C3FD47C /* StyleButtonController.m in Sources */,
+				3EA34289C1DCB095AA72390BABDAC3D2 /* LayoutButtonController.m in Sources */,
+				B0D73C3F1C9B3D45A53A0A2D55377973 /* mxhComposite-dummy.m in Sources */,
+				F2406B1C383208E10D312616530307AE /* StyleButtonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43EEF8E9FFEF293495E417A9A4088D42 /* Sources */ = {
+		5085553DE0CB3A1ACE9580F6514E6A21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464129147235D679A2D8F7F2D91BBAC1 /* AdaptiveLayoutHelper.m in Sources */,
-				11FBE360C125F32E0BA20CA2689305BD /* mxhGadgets-dummy.m in Sources */,
-				B764164A397C6463A31853D58270F684 /* UIButton+CommitButtonSet.m in Sources */,
+				4A9795A0BB22B2D2ED990D5C82CB00A4 /* AdaptiveLayoutHelper.m in Sources */,
+				E1DE7EBB4FE790BD1FC6F5D9979F8B2E /* mxhGadgets-dummy.m in Sources */,
+				C122B1544AE06AA58CA780AC2AAECDC1 /* UIButton+CommitButtonSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,55 +474,19 @@
 		41644BB5C11972FED8E168BC0845EBAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = mxhGadgets;
-			target = D2E3E1C5AC9FF8328BEC40985632FD20 /* mxhGadgets */;
+			target = 5B39F5B64D92BF932803FE30A65264B0 /* mxhGadgets */;
 			targetProxy = 19A837B4A6DDB6FDE8908FFC9F769344 /* PBXContainerItemProxy */;
-		};
-		EB9D8FEB28AB0528DF4B83C2B5467EB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = mxhGadgets;
-			target = D2E3E1C5AC9FF8328BEC40985632FD20 /* mxhGadgets */;
-			targetProxy = E2ACB536C47FE86DF9C13649E28655BC /* PBXContainerItemProxy */;
 		};
 		F78723915CDD00E71170375A14C22108 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = mxhComposite;
-			target = B451D84A5E67A8CA6BD4D057A7391EC3 /* mxhComposite */;
+			target = F482286B117D0F3F62BBF75141E15307 /* mxhComposite */;
 			targetProxy = F490011E5162731CB086D444DAA49BEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13136D30EE1E654AC134787A0E21A111 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6143D375FEE26A8A3FA78D9B8F7F4FA3 /* mxhGadgets.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/mxhGadgets/mxhGadgets-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/mxhGadgets/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/mxhGadgets/mxhGadgets.modulemap";
-				PRODUCT_NAME = mxhGadgets;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		292ECB46662C47DD25B8CE7404E7E098 /* Debug */ = {
+		2BBE94A4628530F1F2434DA1CE8DC227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */;
 			buildSettings = {
@@ -558,10 +510,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		432ED020FFA60943393A1FAD78DA8991 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -743,9 +696,9 @@
 			};
 			name = Release;
 		};
-		A12CB97C3D2C7213D51DB42A9F9B37DE /* Release */ = {
+		BD2E9B6E588F840763DF5CD8E79FCA17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */;
+			baseConfigurationReference = 6143D375FEE26A8A3FA78D9B8F7F4FA3 /* mxhGadgets.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -756,13 +709,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/mxhComposite/mxhComposite-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/mxhComposite/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/mxhGadgets/mxhGadgets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mxhGadgets/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/mxhComposite/mxhComposite.modulemap";
-				PRODUCT_NAME = mxhComposite;
+				MODULEMAP_FILE = "Target Support Files/mxhGadgets/mxhGadgets.modulemap";
+				PRODUCT_NAME = mxhGadgets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -773,7 +726,7 @@
 			};
 			name = Release;
 		};
-		E85A3F701A0B120F177209FE2D0F6540 /* Debug */ = {
+		BE1CAA9A9DBA8DBF5512544C55C404F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6143D375FEE26A8A3FA78D9B8F7F4FA3 /* mxhGadgets.xcconfig */;
 			buildSettings = {
@@ -802,9 +755,47 @@
 			};
 			name = Debug;
 		};
+		CA3E581CA074C48B2161E304A1DFFE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mxhComposite/mxhComposite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mxhComposite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mxhComposite/mxhComposite.modulemap";
+				PRODUCT_NAME = mxhComposite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02CDAFD555375EBAFAC27E954760AD69 /* Build configuration list for PBXNativeTarget "mxhComposite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E581CA074C48B2161E304A1DFFE80 /* Debug */,
+				2BBE94A4628530F1F2434DA1CE8DC227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -814,20 +805,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EA7532EECCF3E0C6F91B80BF2430217 /* Build configuration list for PBXNativeTarget "mxhGadgets" */ = {
+		3A61F9E0A11EDAC6B07E6115785DBB51 /* Build configuration list for PBXNativeTarget "mxhGadgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E85A3F701A0B120F177209FE2D0F6540 /* Debug */,
-				13136D30EE1E654AC134787A0E21A111 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5534E5C440A3BA593FE14B596605D134 /* Build configuration list for PBXNativeTarget "mxhComposite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				292ECB46662C47DD25B8CE7404E7E098 /* Debug */,
-				A12CB97C3D2C7213D51DB42A9F9B37DE /* Release */,
+				BE1CAA9A9DBA8DBF5512544C55C404F2 /* Debug */,
+				BD2E9B6E588F840763DF5CD8E79FCA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

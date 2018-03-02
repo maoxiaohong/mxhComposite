@@ -2,11 +2,8 @@ PODS:
   - mxhComposite (1.5):
     - mxhComposite/LayoutButton (= 1.5)
     - mxhComposite/StyleButton (= 1.5)
-    - mxhGadgets
-  - mxhComposite/LayoutButton (1.5):
-    - mxhGadgets
-  - mxhComposite/StyleButton (1.5):
-    - mxhGadgets
+  - mxhComposite/LayoutButton (1.5)
+  - mxhComposite/StyleButton (1.5)
   - mxhGadgets (1.5)
 
 DEPENDENCIES:
@@ -25,7 +22,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/maoxiaohong/mxhGadgets.git
 
 SPEC CHECKSUMS:
-  mxhComposite: df19554785617fb24d3807851d5c4a2ef29e6a10
+  mxhComposite: 1aa0aa5e5d97bfb88374e2f1de025882a24d1040
   mxhGadgets: 02c53ef175d948e43cf606d30587e329f7ef552a
 
 PODFILE CHECKSUM: 649f25fe7ec0b7e11c676fb7d302714930cb174e

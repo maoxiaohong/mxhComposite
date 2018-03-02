@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/maoxiaohong/mxhComposite.git', :tag => s.version}
     s.vendored_frameworks = 'mxhComposite/ThirdParty/mxhGadgets.framework'
-    s.dependency  'mxhGadgets'
+    #s.dependency  'mxhGadgets'
 
     #s.source_files = 'mxhComposite/**/*.{h,m}'
     #s.resources = "mxhComposite/**/*.{xib}"

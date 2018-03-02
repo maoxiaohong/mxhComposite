@@ -16,11 +16,6 @@
     "tag": "1.5"
   },
   "vendored_frameworks": "mxhComposite/ThirdParty/mxhGadgets.framework",
-  "dependencies": {
-    "mxhGadgets": [
-
-    ]
-  },
   "requires_arc": true,
   "subspecs": [
     {
