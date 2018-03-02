@@ -25,7 +25,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/maoxiaohong/mxhGadgets.git
 
 SPEC CHECKSUMS:
-  mxhComposite: 1992bc3f4ca3502b9f0519aed9ad87fb104ab031
+  mxhComposite: 4baa03059b8abe5591fd8cfd5cad1d365bf82faf
   mxhGadgets: 02c53ef175d948e43cf606d30587e329f7ef552a
 
 PODFILE CHECKSUM: 649f25fe7ec0b7e11c676fb7d302714930cb174e

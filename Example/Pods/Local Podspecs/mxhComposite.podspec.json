@@ -20,6 +20,7 @@
 
     ]
   },
+  "vendored_libraries": "mxhComposite/ThirdParty/*.{.a}",
   "requires_arc": true,
   "subspecs": [
     {
