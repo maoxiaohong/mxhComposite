@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
     s.authors      = {'maoxiaohong' => '825823903@qq.com'}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/maoxiaohong/mxhComposite.git', :tag => s.version}
+    s.vendored_frameworks = 'mxhComposite/ThirdParty/mxhGadgets.framework'
     s.dependency  'mxhGadgets'
-    s.vendored_libraries = 'mxhComposite/ThirdParty/*.{.a}'
 
     #s.source_files = 'mxhComposite/**/*.{h,m}'
     #s.resources = "mxhComposite/**/*.{xib}"

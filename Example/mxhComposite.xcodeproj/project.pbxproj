@@ -202,11 +202,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-mxhComposite/Pods-mxhComposite-frameworks.sh",
+				"${PODS_ROOT}/../../mxhComposite/ThirdParty/mxhGadgets.framework",
 				"${BUILT_PRODUCTS_DIR}/mxhComposite/mxhComposite.framework",
 				"${BUILT_PRODUCTS_DIR}/mxhGadgets/mxhGadgets.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mxhGadgets.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mxhComposite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mxhGadgets.framework",
 			);

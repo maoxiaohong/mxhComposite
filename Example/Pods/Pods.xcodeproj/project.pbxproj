@@ -13,16 +13,16 @@
 		1A76642DB047238A9A1EC47DA0D6C540 /* Pods-mxhComposite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A69E73D8DA667671365B0ED558F0FF2 /* Pods-mxhComposite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D8FB0A4622B4D63EF97B34DCBD4B69E /* mxhGadgets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8865800F9047AC56D00324F9271F10D /* mxhGadgets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		464129147235D679A2D8F7F2D91BBAC1 /* AdaptiveLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C9222F50919F9C998EC337FDA7FA /* AdaptiveLayoutHelper.m */; };
-		704785FC02DF2FADD1D755C036AC2EBC /* LayoutButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = EADDBEC52DA18BCE91C3A2979AEAC71B /* LayoutButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704785FC02DF2FADD1D755C036AC2EBC /* LayoutButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A9B7941FD4B7B397F2C4FC220DEBEC /* LayoutButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77AF670F22E62D6D1374F17F2F97CEC0 /* Pods-mxhComposite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6583E33584775D249ED37FBB45A2DD /* Pods-mxhComposite-dummy.m */; };
 		79F132958878553306A29C816159A385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */; };
-		8065A4CF1A7BAC969BDAE85820C71A2E /* LayoutButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C28C2AB735E9D364ED286F33E7CA78 /* LayoutButtonController.m */; };
-		8234047C81FBE314D740C6DB60FEAB85 /* StyleButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C29D9D2112E5E6243186323610F75A2 /* StyleButtonController.xib */; };
-		84003450AC69CA45FC872D598C3FD47C /* StyleButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207E8EB3201495235D1F7EF7E79E620 /* StyleButtonController.m */; };
-		979F8848098F465DE4978F9961D9D258 /* StyleButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = FACFDABDF75BE41FDAA35745A980D109 /* StyleButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		982E955EA5685B0EFACF25794882F423 /* mxhComposite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE2A4062B33794815BCF7AE7E9C6BF /* mxhComposite-dummy.m */; };
-		A0C92C573D46724F3AB48DCF5FA9D45D /* mxhComposite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 091D5F3860AA16C83E92D162ADCF927F /* mxhComposite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB9422BACAB7DD3FBDE55BDDBF03ACC1 /* LayoutButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E7E6698F08A3087BE48644409EC1F4 /* LayoutButtonController.xib */; };
+		8065A4CF1A7BAC969BDAE85820C71A2E /* LayoutButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094C262EC819877E2F1AAB356AE54A68 /* LayoutButtonController.m */; };
+		8234047C81FBE314D740C6DB60FEAB85 /* StyleButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078CFB55BDBB78E2F7BB68D3A99F451 /* StyleButtonController.xib */; };
+		84003450AC69CA45FC872D598C3FD47C /* StyleButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F44AB4FAADDFD91407E5F027348AAA /* StyleButtonController.m */; };
+		979F8848098F465DE4978F9961D9D258 /* StyleButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDAC284676C0AC184C72F3C1E68A063 /* StyleButtonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		982E955EA5685B0EFACF25794882F423 /* mxhComposite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4700F26D947AD325C077917C78DDED /* mxhComposite-dummy.m */; };
+		A0C92C573D46724F3AB48DCF5FA9D45D /* mxhComposite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93234BC0491AE25FDF111B255435FE /* mxhComposite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB9422BACAB7DD3FBDE55BDDBF03ACC1 /* LayoutButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A64B73D91CACE3B7D98CEC8B5711345 /* LayoutButtonController.xib */; };
 		AFF06772E1397F5488DB434FB59ADDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */; };
 		B764164A397C6463A31853D58270F684 /* UIButton+CommitButtonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C934F58C89E4AC0252989D6FE2B2114A /* UIButton+CommitButtonSet.m */; };
 		BBC2DE1E009CDAE6DB84D4F957905006 /* AdaptiveLayoutHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456626DABD7D4445744E1E23FA5075E6 /* AdaptiveLayoutHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,45 +55,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AB30BD40EC0CFD105A4B42F01BAE4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		091D5F3860AA16C83E92D162ADCF927F /* mxhComposite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mxhComposite-umbrella.h"; sourceTree = "<group>"; };
+		094C262EC819877E2F1AAB356AE54A68 /* LayoutButtonController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LayoutButtonController.m; path = mxhComposite/LayoutButton/LayoutButtonController.m; sourceTree = "<group>"; };
 		0C6583E33584775D249ED37FBB45A2DD /* Pods-mxhComposite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mxhComposite-dummy.m"; sourceTree = "<group>"; };
 		0E6FA2D7D0A1FDFB079AB355F0B7E125 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1966F207F31332A6566434B6391E2CC2 /* mxhGadgets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = mxhGadgets.modulemap; sourceTree = "<group>"; };
+		1F93234BC0491AE25FDF111B255435FE /* mxhComposite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mxhComposite-umbrella.h"; sourceTree = "<group>"; };
 		252A41CE9522B119183A580A0718C4CE /* UIButton+CommitButtonSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CommitButtonSet.h"; path = "mxhGadgets/UIButton+CommitButtonSet.h"; sourceTree = "<group>"; };
 		2743C9222F50919F9C998EC337FDA7FA /* AdaptiveLayoutHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AdaptiveLayoutHelper.m; path = mxhGadgets/AdaptiveLayoutHelper.m; sourceTree = "<group>"; };
 		2B67611726672E582F879692FA07B6E4 /* loading_64@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_64@2x.png"; path = "mxhGadgets/loading_64@2x.png"; sourceTree = "<group>"; };
-		2C29D9D2112E5E6243186323610F75A2 /* StyleButtonController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StyleButtonController.xib; path = mxhComposite/StyleButton/StyleButtonController.xib; sourceTree = "<group>"; };
+		31576506F7253A9A994D0F13F1D09D9C /* mxhComposite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = mxhComposite.modulemap; sourceTree = "<group>"; };
 		3196432E29B505F3F19BFCA3C5336403 /* mxhGadgets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mxhGadgets-prefix.pch"; sourceTree = "<group>"; };
 		3A69E73D8DA667671365B0ED558F0FF2 /* Pods-mxhComposite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mxhComposite-umbrella.h"; sourceTree = "<group>"; };
 		412459CB870E34741E213AC58270B8FC /* Pods_mxhComposite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mxhComposite.framework; path = "Pods-mxhComposite.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456626DABD7D4445744E1E23FA5075E6 /* AdaptiveLayoutHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdaptiveLayoutHelper.h; path = mxhGadgets/AdaptiveLayoutHelper.h; sourceTree = "<group>"; };
-		5207E8EB3201495235D1F7EF7E79E620 /* StyleButtonController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StyleButtonController.m; path = mxhComposite/StyleButton/StyleButtonController.m; sourceTree = "<group>"; };
+		4D4700F26D947AD325C077917C78DDED /* mxhComposite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mxhComposite-dummy.m"; sourceTree = "<group>"; };
 		5798ACD13C76CC11D04C67A4391640E7 /* Pods-mxhComposite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-mxhComposite.modulemap"; sourceTree = "<group>"; };
-		5EBE2A4062B33794815BCF7AE7E9C6BF /* mxhComposite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mxhComposite-dummy.m"; sourceTree = "<group>"; };
+		583110189FE78563D40197199D0CA9E9 /* mxhGadgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mxhGadgets.framework; path = mxhComposite/ThirdParty/mxhGadgets.framework; sourceTree = "<group>"; };
+		5A64B73D91CACE3B7D98CEC8B5711345 /* LayoutButtonController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LayoutButtonController.xib; path = mxhComposite/LayoutButton/LayoutButtonController.xib; sourceTree = "<group>"; };
 		6143D375FEE26A8A3FA78D9B8F7F4FA3 /* mxhGadgets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mxhGadgets.xcconfig; sourceTree = "<group>"; };
+		67A9B7941FD4B7B397F2C4FC220DEBEC /* LayoutButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutButtonController.h; path = mxhComposite/LayoutButton/LayoutButtonController.h; sourceTree = "<group>"; };
+		69BAE2F65682F19775B40353D6BC91D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B89C0609E213C802A01C81EE919568F /* mxhGadgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mxhGadgets.framework; path = mxhGadgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFE3A84FD406F980FFF054537964A14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7143DAB69F6094BDED26ACB4B1973D4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E7DF9C94FBB6684B7B56E550E2F88B /* Pods-mxhComposite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mxhComposite-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B2DC87A7238FB41DEF3426BEA79D2B2 /* Pods-mxhComposite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mxhComposite-acknowledgements.plist"; sourceTree = "<group>"; };
-		8211100156620F5D10C0F1778D74CA06 /* mxhComposite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = mxhComposite.modulemap; sourceTree = "<group>"; };
+		7DDAC284676C0AC184C72F3C1E68A063 /* StyleButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StyleButtonController.h; path = mxhComposite/StyleButton/StyleButtonController.h; sourceTree = "<group>"; };
 		899C0690312B06A8DE8226A8100C1808 /* Pods-mxhComposite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mxhComposite.release.xcconfig"; sourceTree = "<group>"; };
 		8A5432E99773ADE4097CB994805C562F /* mxhComposite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mxhComposite.framework; path = mxhComposite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mxhComposite.xcconfig; sourceTree = "<group>"; };
 		A633521B4CB4A8DE5E910B28B0C6820A /* mxhGadgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mxhGadgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8C28C2AB735E9D364ED286F33E7CA78 /* LayoutButtonController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LayoutButtonController.m; path = mxhComposite/LayoutButton/LayoutButtonController.m; sourceTree = "<group>"; };
-		B1E7E6698F08A3087BE48644409EC1F4 /* LayoutButtonController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LayoutButtonController.xib; path = mxhComposite/LayoutButton/LayoutButtonController.xib; sourceTree = "<group>"; };
-		C357CBEC99FDF1144895F38F9C8FED86 /* mxhComposite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mxhComposite.xcconfig; sourceTree = "<group>"; };
 		C5873B95CE701066F783BC50AEEEB6A9 /* mxhGadgets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mxhGadgets-dummy.m"; sourceTree = "<group>"; };
 		C934F58C89E4AC0252989D6FE2B2114A /* UIButton+CommitButtonSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CommitButtonSet.m"; path = "mxhGadgets/UIButton+CommitButtonSet.m"; sourceTree = "<group>"; };
 		CCC6B3FFE2B1F38522281EC33930A53E /* Pods-mxhComposite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mxhComposite-frameworks.sh"; sourceTree = "<group>"; };
 		DE7D0E364426DB3FED2928DC21422134 /* Pods-mxhComposite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mxhComposite.debug.xcconfig"; sourceTree = "<group>"; };
-		EADDBEC52DA18BCE91C3A2979AEAC71B /* LayoutButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutButtonController.h; path = mxhComposite/LayoutButton/LayoutButtonController.h; sourceTree = "<group>"; };
+		DFFA3BB3D0CD64FF85CF8A1331B4FE05 /* mxhComposite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mxhComposite-prefix.pch"; sourceTree = "<group>"; };
 		EE74F20285652DC3F1EC8F3BBBF75B2F /* Pods-mxhComposite-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mxhComposite-resources.sh"; sourceTree = "<group>"; };
-		F2F5E749FC72D8A8DEB56C71DC3A05F4 /* mxhComposite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mxhComposite-prefix.pch"; sourceTree = "<group>"; };
+		F078CFB55BDBB78E2F7BB68D3A99F451 /* StyleButtonController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StyleButtonController.xib; path = mxhComposite/StyleButton/StyleButtonController.xib; sourceTree = "<group>"; };
+		F7F44AB4FAADDFD91407E5F027348AAA /* StyleButtonController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StyleButtonController.m; path = mxhComposite/StyleButton/StyleButtonController.m; sourceTree = "<group>"; };
 		F8865800F9047AC56D00324F9271F10D /* mxhGadgets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mxhGadgets-umbrella.h"; sourceTree = "<group>"; };
-		FACFDABDF75BE41FDAA35745A980D109 /* StyleButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StyleButtonController.h; path = mxhComposite/StyleButton/StyleButtonController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,22 +126,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		289AEEE10D353A6C4B711E93EF3BACD7 /* StyleButton */ = {
+		442CC4178FA500E0486D1C74345B8F86 /* LayoutButton */ = {
 			isa = PBXGroup;
 			children = (
-				FACFDABDF75BE41FDAA35745A980D109 /* StyleButtonController.h */,
-				5207E8EB3201495235D1F7EF7E79E620 /* StyleButtonController.m */,
-				9EE9B36DC9A14A219539B4F8218371EA /* Resources */,
+				67A9B7941FD4B7B397F2C4FC220DEBEC /* LayoutButtonController.h */,
+				094C262EC819877E2F1AAB356AE54A68 /* LayoutButtonController.m */,
+				F5996DEA47273FE6D9DB149FDC2B0C0A /* Resources */,
 			);
-			name = StyleButton;
+			name = LayoutButton;
 			sourceTree = "<group>";
 		};
-		2F64EA17F932BA8504397422FE052606 /* Resources */ = {
+		458BA4DCE74A7906BB81AB9060607E2E /* mxhComposite */ = {
 			isa = PBXGroup;
 			children = (
-				B1E7E6698F08A3087BE48644409EC1F4 /* LayoutButtonController.xib */,
+				A5B4112C3ABEA369F8877BF0D80692E2 /* Frameworks */,
+				442CC4178FA500E0486D1C74345B8F86 /* LayoutButton */,
+				F7CE35A6A833DA35AA339C409184EEAA /* StyleButton */,
+				F890527D57BFC2B9EA65FAA436B61FE7 /* Support Files */,
 			);
-			name = Resources;
+			name = mxhComposite;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		53C732CD5102B772FEE237493E81F349 /* Support Files */ = {
@@ -175,11 +180,19 @@
 			path = "Target Support Files/Pods-mxhComposite";
 			sourceTree = "<group>";
 		};
+		690DFA478A7E0CEA613FFBF6AABB062F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F078CFB55BDBB78E2F7BB68D3A99F451 /* StyleButtonController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A9779F896EE496CC42339413C25921A5 /* Development Pods */,
+				9A256E8760383E2966F2871810371EF6 /* Development Pods */,
 				C09BCAD38EC23BE8E1A263D26FE5C873 /* Frameworks */,
 				ECF87C178A33418EABA10823C7CCBB22 /* Pods */,
 				C7AB6C4950E706EC08B96A3494FE5648 /* Products */,
@@ -187,22 +200,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		8270E777A2AF1271D5CBFB3B34DB5026 /* LayoutButton */ = {
+		9A256E8760383E2966F2871810371EF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EADDBEC52DA18BCE91C3A2979AEAC71B /* LayoutButtonController.h */,
-				A8C28C2AB735E9D364ED286F33E7CA78 /* LayoutButtonController.m */,
-				2F64EA17F932BA8504397422FE052606 /* Resources */,
+				458BA4DCE74A7906BB81AB9060607E2E /* mxhComposite */,
 			);
-			name = LayoutButton;
-			sourceTree = "<group>";
-		};
-		9EE9B36DC9A14A219539B4F8218371EA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2C29D9D2112E5E6243186323610F75A2 /* StyleButtonController.xib */,
-			);
-			name = Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A18FA1BC17BA12A982B0C85B90280C8D /* mxhGadgets */ = {
@@ -219,12 +222,12 @@
 			path = mxhGadgets;
 			sourceTree = "<group>";
 		};
-		A9779F896EE496CC42339413C25921A5 /* Development Pods */ = {
+		A5B4112C3ABEA369F8877BF0D80692E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CCC40AC7EF1FFABB4CD63C3342EAD1D3 /* mxhComposite */,
+				583110189FE78563D40197199D0CA9E9 /* mxhGadgets.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C09BCAD38EC23BE8E1A263D26FE5C873 /* Frameworks */ = {
@@ -254,17 +257,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCC40AC7EF1FFABB4CD63C3342EAD1D3 /* mxhComposite */ = {
-			isa = PBXGroup;
-			children = (
-				8270E777A2AF1271D5CBFB3B34DB5026 /* LayoutButton */,
-				289AEEE10D353A6C4B711E93EF3BACD7 /* StyleButton */,
-				DDE1E69453A92CBB020DB2D8C1687F60 /* Support Files */,
-			);
-			name = mxhComposite;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D13D3E30B5E34469E9BDAB373E7FB83F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,26 +273,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DDE1E69453A92CBB020DB2D8C1687F60 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00AB30BD40EC0CFD105A4B42F01BAE4F /* Info.plist */,
-				8211100156620F5D10C0F1778D74CA06 /* mxhComposite.modulemap */,
-				C357CBEC99FDF1144895F38F9C8FED86 /* mxhComposite.xcconfig */,
-				5EBE2A4062B33794815BCF7AE7E9C6BF /* mxhComposite-dummy.m */,
-				F2F5E749FC72D8A8DEB56C71DC3A05F4 /* mxhComposite-prefix.pch */,
-				091D5F3860AA16C83E92D162ADCF927F /* mxhComposite-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/mxhComposite";
-			sourceTree = "<group>";
-		};
 		ECF87C178A33418EABA10823C7CCBB22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A18FA1BC17BA12A982B0C85B90280C8D /* mxhGadgets */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5996DEA47273FE6D9DB149FDC2B0C0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A64B73D91CACE3B7D98CEC8B5711345 /* LayoutButtonController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F7CE35A6A833DA35AA339C409184EEAA /* StyleButton */ = {
+			isa = PBXGroup;
+			children = (
+				7DDAC284676C0AC184C72F3C1E68A063 /* StyleButtonController.h */,
+				F7F44AB4FAADDFD91407E5F027348AAA /* StyleButtonController.m */,
+				690DFA478A7E0CEA613FFBF6AABB062F /* Resources */,
+			);
+			name = StyleButton;
+			sourceTree = "<group>";
+		};
+		F890527D57BFC2B9EA65FAA436B61FE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69BAE2F65682F19775B40353D6BC91D9 /* Info.plist */,
+				31576506F7253A9A994D0F13F1D09D9C /* mxhComposite.modulemap */,
+				9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */,
+				4D4700F26D947AD325C077917C78DDED /* mxhComposite-dummy.m */,
+				DFFA3BB3D0CD64FF85CF8A1331B4FE05 /* mxhComposite-prefix.pch */,
+				1F93234BC0491AE25FDF111B255435FE /* mxhComposite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/mxhComposite";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -526,7 +536,7 @@
 		};
 		292ECB46662C47DD25B8CE7404E7E098 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C357CBEC99FDF1144895F38F9C8FED86 /* mxhComposite.xcconfig */;
+			baseConfigurationReference = 9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -735,7 +745,7 @@
 		};
 		A12CB97C3D2C7213D51DB42A9F9B37DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C357CBEC99FDF1144895F38F9C8FED86 /* mxhComposite.xcconfig */;
+			baseConfigurationReference = 9DA913F2977339FEB4D08ACF1F2FA4F3 /* mxhComposite.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
