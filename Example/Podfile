@@ -1,0 +1,5 @@
+use_frameworks!
+target 'mxhComposite' do
+    pod 'mxhGadgets', :git => "https://github.com/maoxiaohong/mxhGadgets.git"
+    pod 'mxhComposite', :path => '../'
+end

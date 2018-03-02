@@ -1,0 +1,36 @@
+{
+  "name": "mxhComposite",
+  "version": "1.5",
+  "summary": "ios view tools",
+  "description": "mxhComposite,for ios view tools",
+  "homepage": "https://github.com/maoxiaohong/mxhComposite",
+  "license": "MIT",
+  "authors": {
+    "maoxiaohong": "825823903@qq.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/maoxiaohong/mxhComposite.git",
+    "tag": "1.5"
+  },
+  "dependencies": {
+    "mxhGadgets": [
+
+    ]
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "StyleButton",
+      "source_files": "mxhComposite/StyleButton/**/*.{h,m,swift}",
+      "resources": "mxhComposite/StyleButton/**/*.{storyboard,xib}"
+    },
+    {
+      "name": "LayoutButton",
+      "source_files": "mxhComposite/LayoutButton/**/*.{h,m,swift}",
+      "resources": "mxhComposite/LayoutButton/**/*.{storyboard,xib}"
+    }
+  ]
+}

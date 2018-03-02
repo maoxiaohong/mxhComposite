@@ -1,0 +1,6 @@
+framework module mxhComposite {
+  umbrella header "mxhComposite-umbrella.h"
+
+  export *
+  module * { export * }
+}

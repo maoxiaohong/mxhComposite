@@ -1,0 +1,33 @@
+PODS:
+  - mxhComposite (1.5):
+    - mxhComposite/LayoutButton (= 1.5)
+    - mxhComposite/StyleButton (= 1.5)
+    - mxhGadgets
+  - mxhComposite/LayoutButton (1.5):
+    - mxhGadgets
+  - mxhComposite/StyleButton (1.5):
+    - mxhGadgets
+  - mxhGadgets (1.5)
+
+DEPENDENCIES:
+  - mxhComposite (from `../`)
+  - mxhGadgets (from `https://github.com/maoxiaohong/mxhGadgets.git`)
+
+EXTERNAL SOURCES:
+  mxhComposite:
+    :path: ../
+  mxhGadgets:
+    :git: https://github.com/maoxiaohong/mxhGadgets.git
+
+CHECKOUT OPTIONS:
+  mxhGadgets:
+    :commit: 01ee2cc84a8edc6d50abf09e974fbb2179ed53f5
+    :git: https://github.com/maoxiaohong/mxhGadgets.git
+
+SPEC CHECKSUMS:
+  mxhComposite: 1992bc3f4ca3502b9f0519aed9ad87fb104ab031
+  mxhGadgets: 02c53ef175d948e43cf606d30587e329f7ef552a
+
+PODFILE CHECKSUM: 649f25fe7ec0b7e11c676fb7d302714930cb174e
+
+COCOAPODS: 1.3.1
